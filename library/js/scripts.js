@@ -110,5 +110,14 @@ jQuery(document).ready(function($) {
  * Load up Foundation
  */
 (function(jQuery) {
-  jQuery(document).foundation();
+  jQuery(document).foundation({
+  orbit: {
+    animation: 'slide',
+    timer_speed: 5000,
+    pause_on_hover: true,
+    animation_speed: 500,
+    navigation_arrows: true,
+    bullets: false
+  }
+});
 })(jQuery);
