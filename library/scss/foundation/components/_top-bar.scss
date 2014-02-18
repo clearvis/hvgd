@@ -7,7 +7,7 @@
 $include-html-top-bar-classes: $include-html-classes !default;
 
 // Background color for the top bar
-$topbar-bg-color: #333 !default;
+$topbar-bg-color: #FFF !default;
 $topbar-bg: $topbar-bg-color !default;
 
 // Height and margin
@@ -28,10 +28,10 @@ $topbar-dropdown-toggle-color: #fff !default;
 $topbar-dropdown-toggle-alpha: 0.4 !default;
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: #fff !default;
-$topbar-link-color-hover: #fff !default;
-$topbar-link-color-active: #fff !default;
-$topbar-link-color-active-hover: #fff !default;
+$topbar-link-color: #BDBDBD !default;
+$topbar-link-color-hover: #A4A4A4 !default;
+$topbar-link-color-active: #A4A4A4 !default;
+$topbar-link-color-active-hover: #A4A4A4 !default;
 $topbar-link-weight: normal !default;
 $topbar-link-font-size: rem-calc(13) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%

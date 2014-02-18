@@ -27,11 +27,46 @@ HEADER STYLES
 
 .header {}
 
-	#logo {}
+#inner-header {
+	border-bottom: 1px solid $primary-border-color;
+}
+
+.hvgd-logo {
+	height: 150px;
+	text-indent: -100%;
+	overflow: hidden;
+}
+
+h1.hvgd-logo {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1;
+}
 
 /*********************
 NAVIGATION STYLES
 *********************/
+
+.top-bar {
+	margin-top: 60px;
+}
+
+.fixed .top-bar {
+	margin-top: 0;
+}
+
+/*********************
+HOME PAGE STYLES
+*********************/
+
+.home-blocks-container {
+	padding-top: 1.5em;
+	border-top: 1px solid $primary-border-color;
+}
+
+.home-blocks-container > .columns:not(:last-child) {
+	border-right: 1px solid $primary-border-color;
+}
 
 /*********************
 SIDEBARS & ASIDES
