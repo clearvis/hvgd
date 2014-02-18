@@ -118,7 +118,7 @@ jQuery(document).ready(function($) {
 	resume_on_mouseout: true,
     animation_speed: 500,
     navigation_arrows: true,
-    bullets: false
+    bullets: true
   }
 });
 })(jQuery);

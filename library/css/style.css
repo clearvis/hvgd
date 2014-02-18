@@ -3166,7 +3166,7 @@ kbd {
     top: 10px;
     left: 10px;
     font-size: 12px;
-    color: white;
+    color: rgba(0, 0, 0, 0.3);
     background: transparent;
     z-index: 10; }
     .orbit-container .orbit-slide-number span {
@@ -3182,7 +3182,7 @@ kbd {
     z-index: 10; }
     .orbit-container .orbit-timer .orbit-progress {
       height: 3px;
-      background-color: rgba(255, 255, 255, 0.3);
+      background-color: rgba(0, 0, 0, 0.3);
       display: block;
       width: 0%;
       position: relative;
@@ -3239,7 +3239,7 @@ kbd {
     .orbit-container .orbit-prev > span {
       border-right-style: solid;
       border-color: transparent;
-      border-right-color: white; }
+      border-right-color: rgba(0, 0, 0, 0.3); }
     .orbit-container .orbit-prev:hover > span {
       border-right-color: white; }
   .orbit-container .orbit-next {
@@ -3247,7 +3247,7 @@ kbd {
     .orbit-container .orbit-next > span {
       border-color: transparent;
       border-left-style: solid;
-      border-left-color: white;
+      border-left-color: rgba(0, 0, 0, 0.3);
       left: 50%;
       margin-left: -4px; }
     .orbit-container .orbit-next:hover > span {
