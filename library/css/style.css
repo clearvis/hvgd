@@ -4226,10 +4226,10 @@ meta.foundation-mq-topbar {
     background: #272727;
     color: #a4a4a4; }
   .top-bar-section ul li.active > a {
-    background: #008cba;
+    background: white;
     color: #a4a4a4; }
     .top-bar-section ul li.active > a:hover {
-      background: #0078a0;
+      background: white;
       color: #a4a4a4; }
   .top-bar-section .has-form {
     padding: 15px; }
@@ -4342,9 +4342,9 @@ meta.foundation-mq-topbar {
       padding: 0 15px;
       line-height: 45px;
       color: #a4a4a4;
-      background: #008cba; }
+      background: white; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #0078a0; }
+        background: white; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -4413,7 +4413,7 @@ meta.foundation-mq-topbar {
     background: #272727;
     color: #a4a4a4; }
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
+    background: white;
     color: #a4a4a4; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block; } }
@@ -6265,6 +6265,9 @@ you can add resource intensive styles.
   /*********************
   HOME PAGE STYLES
   *********************/
+  .orbit-container {
+    margin-bottom: 1.5em; }
+
   .home-blocks-container {
     padding-top: 1.5em;
     border-top: 1px solid #bdbdbd; }
