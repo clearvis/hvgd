@@ -4224,13 +4224,13 @@ meta.foundation-mq-topbar {
         background: #d42b0f; }
   .top-bar-section ul li:hover > a {
     background: #272727;
-    color: #a4a4a4; }
+    color: black; }
   .top-bar-section ul li.active > a {
-    background: white;
-    color: #a4a4a4; }
+    background: #008cba;
+    color: black; }
     .top-bar-section ul li.active > a:hover {
-      background: white;
-      color: #a4a4a4; }
+      background: #0078a0;
+      color: black; }
   .top-bar-section .has-form {
     padding: 15px; }
   .top-bar-section .has-dropdown {
@@ -4331,7 +4331,7 @@ meta.foundation-mq-topbar {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
       background: #272727;
-      color: #a4a4a4; }
+      color: black; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
@@ -4341,10 +4341,10 @@ meta.foundation-mq-topbar {
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      color: #a4a4a4;
-      background: white; }
+      color: black;
+      background: #008cba; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: white; }
+        background: #0078a0; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -4411,10 +4411,10 @@ meta.foundation-mq-topbar {
 
   .no-js .top-bar-section ul li:hover > a {
     background: #272727;
-    color: #a4a4a4; }
+    color: black; }
   .no-js .top-bar-section ul li:active > a {
-    background: white;
-    color: #a4a4a4; }
+    background: #008cba;
+    color: black; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block; } }
 .text-left {
@@ -6172,6 +6172,9 @@ MEDIUM
   /*********************
   NAVIGATION STYLES
   *********************/
+  .top-bar-section ul li {
+    float: right; }
+
   /*********************
   POSTS & CONTENT STYLES
   *********************/
@@ -6244,13 +6247,15 @@ you can add resource intensive styles.
     border-bottom: 1px solid #bdbdbd; }
 
   .hvgd-logo {
-    height: 150px;
+    background: url(../../../../uploads/2014/02/hvgd-logo-300x85.gif);
+    width: 300px;
+    height: 85px;
+    margin: 1em 0;
+    display: block;
     text-indent: -100%;
     overflow: hidden; }
 
   h1.hvgd-logo {
-    margin-top: 0;
-    margin-bottom: 0;
     line-height: 1; }
 
   /*********************
