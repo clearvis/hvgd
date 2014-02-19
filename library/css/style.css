@@ -3239,7 +3239,7 @@ kbd {
     .orbit-container .orbit-prev > span {
       border-right-style: solid;
       border-color: transparent;
-      border-right-color: rgba(0, 0, 0, 0.3); }
+      border-right-color: #fb811c; }
     .orbit-container .orbit-prev:hover > span {
       border-right-color: white; }
   .orbit-container .orbit-next {
@@ -3247,7 +3247,7 @@ kbd {
     .orbit-container .orbit-next > span {
       border-color: transparent;
       border-left-style: solid;
-      border-left-color: rgba(0, 0, 0, 0.3);
+      border-left-color: #fb811c;
       left: 50%;
       margin-left: -4px; }
     .orbit-container .orbit-next:hover > span {
