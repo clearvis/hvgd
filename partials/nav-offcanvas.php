@@ -22,7 +22,7 @@
 </div>
 
 <div class="large-12 columns show-for-small-only">
-	<div class="contain-to-grid">
+	<div class="contain-to-grid sticky">
 		<nav class="tab-bar">
 			<section class="middle tab-bar-section">
 				<h1 class="title"><?php bloginfo('name'); ?></h1>

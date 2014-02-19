@@ -135,11 +135,24 @@ HEADER STYLES
 
 .header {
 	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid $primary-border-color;
 		#inner-header {
 			li {
 				list-style: none;
 			}
 		}
+}
+
+#inner-header {}
+
+.hvgd-logo {
+	background: url(../../../../uploads/2014/02/hvgd-logo-300x85.gif) center no-repeat;
+	height: 85px;
+	margin: .5em 0;
+	display: block;
+	text-indent: -100%;
+	overflow: hidden;
 }
     
 /*********************
@@ -163,6 +176,15 @@ NAVIGATION STYLES
 			margin-left: 20px;
 		}
 	}
+}
+
+/*********************
+HOME PAGE STYLES
+*********************/
+
+.home-blocks-container {
+	padding-top: 1.5em;
+	border-top: 1px solid $primary-border-color;
 }
 
 /*********************

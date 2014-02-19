@@ -5867,9 +5867,19 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #bdbdbd; }
   .header #inner-header li {
     list-style: none; }
+
+.hvgd-logo {
+  background: url(../../../../uploads/2014/02/hvgd-logo-300x85.gif) center no-repeat;
+  height: 85px;
+  margin: .5em 0;
+  display: block;
+  text-indent: -100%;
+  overflow: hidden; }
 
 /*********************
 NAVIGATION STYLES
@@ -5883,6 +5893,13 @@ NAVIGATION STYLES
     border-bottom: 0px; }
   .off-canvas-list ul .dropdown {
     margin-left: 20px; }
+
+/*********************
+HOME PAGE STYLES
+*********************/
+.home-blocks-container {
+  padding-top: 1.5em;
+  border-top: 1px solid #bdbdbd; }
 
 /*********************
 POSTS & CONTENT STYLES
@@ -6243,17 +6260,11 @@ you can add resource intensive styles.
   /*********************
   HEADER STYLES
   *********************/
-  #inner-header {
-    border-bottom: 1px solid #bdbdbd; }
+  .header {
+    padding-bottom: 0; }
 
   .hvgd-logo {
-    background: url(../../../../uploads/2014/02/hvgd-logo-300x85.gif);
-    width: 300px;
-    height: 85px;
-    margin: 1em 0;
-    display: block;
-    text-indent: -100%;
-    overflow: hidden; }
+    margin: 1em 0; }
 
   h1.hvgd-logo {
     line-height: 1; }
@@ -6272,10 +6283,6 @@ you can add resource intensive styles.
   *********************/
   .orbit-container {
     margin-bottom: 1.5em; }
-
-  .home-blocks-container {
-    padding-top: 1.5em;
-    border-top: 1px solid #bdbdbd; }
 
   .home-blocks-container > .columns:not(:last-child) {
     border-right: 1px solid #bdbdbd; }

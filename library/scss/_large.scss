@@ -25,20 +25,14 @@ LAYOUT & GRID STYLES
 HEADER STYLES
 *********************/
 
-.header {}
-
-#inner-header {
-	border-bottom: 1px solid $primary-border-color;
+.header {
+	padding-bottom: 0;
 }
 
+#inner-header {}
+
 .hvgd-logo {
-	background: url(../../../../uploads/2014/02/hvgd-logo-300x85.gif);
-	width: 300px;
-	height: 85px;
 	margin: 1em 0;
-	display: block;
-	text-indent: -100%;
-	overflow: hidden;
 }
 
 h1.hvgd-logo {
@@ -63,11 +57,6 @@ HOME PAGE STYLES
 
 .orbit-container {
 	margin-bottom: 1.5em;
-}
-
-.home-blocks-container {
-	padding-top: 1.5em;
-	border-top: 1px solid $primary-border-color;
 }
 
 .home-blocks-container > .columns:not(:last-child) {
