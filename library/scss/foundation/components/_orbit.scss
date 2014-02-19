@@ -20,17 +20,17 @@ $orbit-nav-arrow-color: rgba(0,0,0,0.3) !default;
 $orbit-nav-arrow-color-hover: #fff !default;
 
 // We use these to control the timer styles
-$orbit-timer-bg: rgba(0,0,0,0.3) !default;
+$orbit-timer-bg: $primary-color !default;
 $orbit-timer-show-progress-bar: true !default;
 
 // We use these to control the bullet nav styles
 $orbit-bullet-nav-color: #ccc !default;
-$orbit-bullet-nav-color-active: #999 !default;
+$orbit-bullet-nav-color-active: $primary-color !default;
 $orbit-bullet-radius: rem-calc(9) !default;
 
 // We use these to controls the style of slide numbers
 $orbit-slide-number-bg: rgba(0,0,0,0) !default;
-$orbit-slide-number-font-color: rgba(0,0,0,0.3) !default;
+$orbit-slide-number-font-color: $primary-color !default;
 $orbit-slide-number-padding: rem-calc(5) !default;
 
 // Graceful Loading Wrapper and preloader
