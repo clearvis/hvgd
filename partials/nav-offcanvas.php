@@ -35,7 +35,7 @@
 </div>
 						
 <aside class="left-off-canvas-menu show-for-small-only">
-	<ul class="off-canvas-list">
+	<ul class="off-canvas-list" reversed>
 		<li><label>Navigation</label></li>
 			<?php joints_main_nav(); ?>    
 	</ul>
