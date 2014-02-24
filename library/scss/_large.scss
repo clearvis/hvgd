@@ -104,6 +104,11 @@ HOME PAGE STYLES
 	margin-bottom: 1.5em;
 }
 
+.row.home-blocks-container {
+	margin-bottom: 16px;
+	margin-bottom: 1rem;
+}
+
 .home-blocks-container > .columns:not(:last-child) {
 	border-right: 1px solid $primary-border-color;
 }

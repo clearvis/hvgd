@@ -177,7 +177,7 @@ function joints_register_sidebars() {
 	register_sidebar(array(
 		'id' => 'home-widget_center',
 		'name' => __('Homecenter', 'jointstheme'),
-		'description' => __('The offcanvas sidebar.', 'jointstheme'),
+		'description' => __('Home Center Widget.', 'jointstheme'),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widgettitle">',
@@ -187,7 +187,7 @@ function joints_register_sidebars() {
 	register_sidebar(array(
 		'id' => 'home-widget_right',
 		'name' => __('Homeright', 'jointstheme'),
-		'description' => __('The offcanvas sidebar.', 'jointstheme'),
+		'description' => __('Home Right Widget.', 'jointstheme'),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widgettitle">',
