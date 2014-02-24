@@ -1,16 +1,22 @@
 					<footer class="footer" role="contentinfo">
 					
 						<div id="inner-footer" class="row clearfix">
+                        
+                        	<div class="large-6 medium-12 columns">		
+								<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
+                                <p>(914) 582-9353</p>
+							</div>	
 						
-							<div class="large-12 medium-12 columns">
+							<div class="large-6 medium-12 columns">
 								<nav role="navigation">
 		    						<?php joints_footer_links(); ?>
+                                    <ul class="no-bullet right">
+                                        <li>Privacy Policy</li>
+                                        <li>Terms of Service</li>
+                                   </ul>
 		    					</nav>
 		    				</div>
 			               
-			                <div class="large-12 medium-12 columns">		
-								<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
-							</div>		
 						</div> <!-- end #inner-footer -->			
 					</footer> <!-- end .footer -->
 				</div> <!-- end #container -->
