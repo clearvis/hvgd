@@ -43,12 +43,13 @@ h1.hvgd-logo {
 NAVIGATION STYLES
 *********************/
 
-.top-bar {
+.contain-to-grid .top-bar {
 	margin-top: 60px;
 }
 
 .fixed .top-bar {
 	margin-top: 0;
+	background: $primary-color;
 }
 
 /*********************

@@ -6275,11 +6275,12 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
-  .top-bar {
+  .contain-to-grid .top-bar {
     margin-top: 60px; }
 
   .fixed .top-bar {
-    margin-top: 0; }
+    margin-top: 0;
+    background: #fb811c; }
 
   /*********************
   HOME PAGE STYLES
