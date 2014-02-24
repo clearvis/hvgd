@@ -54,6 +54,11 @@
 									<?php  bloginfo('description'); ?>
 								</small>
 							</h1>
+                            
+                            <div class="show-for-small-only text-center">
+                            	<h3>(914) 582-9353</h3>
+                            </div>
+                            
 						</div>
 
 						 <?php  get_template_part( 'partials/nav', 'offcanvas' ); ?>
