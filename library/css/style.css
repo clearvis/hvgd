@@ -5901,6 +5901,9 @@ HOME PAGE STYLES
   padding-top: 1.5em;
   border-top: 1px solid #bdbdbd; }
 
+.home-blocks-container > .columns > h1 {
+  font-size: 1.6875rem; }
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/
@@ -6286,9 +6289,6 @@ you can add resource intensive styles.
 
   .home-blocks-container > .columns:not(:last-child) {
     border-right: 1px solid #bdbdbd; }
-
-  .home-blocks-container > .columns > h1 {
-    font-size: 1.6875rem; }
 
   /*********************
   SIDEBARS & ASIDES
