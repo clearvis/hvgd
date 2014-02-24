@@ -5898,7 +5898,7 @@ NAVIGATION STYLES
 HOME PAGE STYLES
 *********************/
 .home-blocks-container {
-  padding-top: 1.5em;
+  padding-top: 1em;
   border-top: 1px solid #bdbdbd; }
 
 .home-blocks-container > .columns > h1 {
