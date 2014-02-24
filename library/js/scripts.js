@@ -112,7 +112,7 @@ jQuery(document).ready(function($) {
 (function(jQuery) {
   jQuery(document).foundation({
   orbit: {
-    animation: 'slide',
+    animation: 'fade',
     timer_speed: 5000,
     pause_on_hover: true,
 	resume_on_mouseout: true,
