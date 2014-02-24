@@ -163,6 +163,36 @@ function joints_register_sidebars() {
 		'before_title' => '<h4 class="widgettitle">',
 		'after_title' => '</h4>',
 	));
+	
+	register_sidebar(array(
+		'id' => 'home-widget_left',
+		'name' => __('Homeleft', 'jointstheme'),
+		'description' => __('Home Left Widget.', 'jointstheme'),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+	
+	register_sidebar(array(
+		'id' => 'home-widget_center',
+		'name' => __('Homecenter', 'jointstheme'),
+		'description' => __('The offcanvas sidebar.', 'jointstheme'),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+	
+	register_sidebar(array(
+		'id' => 'home-widget_right',
+		'name' => __('Homeright', 'jointstheme'),
+		'description' => __('The offcanvas sidebar.', 'jointstheme'),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
 
 	/*
 	to add more sidebars or widgetized areas, just copy
