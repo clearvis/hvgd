@@ -11,7 +11,8 @@ Template Name: Gallery
 				<div id="inner-content" class="row clearfix">
 			
 				    <div id="main" class="large-12 medium-12 columns" role="main">
-                    <?php echo do_shortcode('[nggallery id=1 template=slider]');?>
+                    
+                   <?php /*?> <?php echo do_shortcode('[nggallery id=1 template=slider]');?><?php */?>
 					
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
