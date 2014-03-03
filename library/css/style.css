@@ -4373,7 +4373,7 @@ meta.foundation-mq-topbar {
     .top-bar-section .dropdown {
       left: 0;
       top: auto;
-      background: transparent;
+      background: #bdbdbd;
       min-width: 100%; }
       .top-bar-section .dropdown li a {
         color: white;
@@ -6194,6 +6194,14 @@ MEDIUM
   *********************/
   .top-bar-section ul li {
     float: right; }
+
+  .dropdown li a {
+    color: #fff !important; }
+
+  .dropdown li a:hover,
+  .dropdown li a:active {
+    background: #999 !important;
+    color: #CCC !important; }
 
   /*********************
   POSTS & CONTENT STYLES
