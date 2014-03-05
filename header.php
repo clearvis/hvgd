@@ -46,14 +46,16 @@
 
 					<div id="inner-header" class="row">
 						<div class="large-4 small-12 columns">
+                        	<a href="<?php echo home_url(); ?>" rel="nofollow">
 							<h1 class="hvgd-logo">
-								<a href="<?php echo home_url(); ?>" rel="nofollow">
+								
 									<?php bloginfo('name'); ?>
-								</a>
+								
 								<small>
 									<?php  bloginfo('description'); ?>
 								</small>
 							</h1>
+                            </a>
                             
                             <div class="show-for-small-only text-center">
                             	<h3>(914) 582-9353</h3>
