@@ -165,6 +165,16 @@ function joints_register_sidebars() {
 	));
 	
 	register_sidebar(array(
+		'id' => 'home-intro',
+		'name' => __('Homeintro', 'jointstheme'),
+		'description' => __('Home Intro.', 'jointstheme'),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+	
+	register_sidebar(array(
 		'id' => 'home-widget_left',
 		'name' => __('Homeleft', 'jointstheme'),
 		'description' => __('Home Left Widget.', 'jointstheme'),
@@ -188,6 +198,16 @@ function joints_register_sidebars() {
 		'id' => 'home-widget_right',
 		'name' => __('Homeright', 'jointstheme'),
 		'description' => __('Home Right Widget.', 'jointstheme'),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+	
+	register_sidebar(array(
+		'id' => 'home-cta',
+		'name' => __('Homecta', 'jointstheme'),
+		'description' => __('Home CTA.', 'jointstheme'),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widgettitle">',

@@ -5901,7 +5901,7 @@ HOME PAGE STYLES
   padding-top: 1em;
   border-top: 1px solid #bdbdbd; }
 
-.home-blocks-container > .columns > h1 {
+#text-4 > .textwidget > h1 {
   font-size: 1.6875rem; }
 
 /*********************
