@@ -182,12 +182,17 @@ NAVIGATION STYLES
 HOME PAGE STYLES
 *********************/
 
+.home-blocks-container .widget {
+	padding: 0;
+	margin: 0;
+}
+
 .home-blocks-container {
 	padding-top: 1em;
 	border-top: 1px solid $primary-border-color;
 }
 
-#text-4 > .textwidget > h1 {
+h1.intro-h1 {
 	font-size: rem-calc(27); // the same size as an h3
 }
 
