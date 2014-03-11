@@ -125,19 +125,19 @@ function joints_scripts_and_styles() {
     wp_register_script( 'joints-modernizr', get_stylesheet_directory_uri() . '/library/js/vendor/modernizr.js', array(), '2.5.3', false );
     
     // adding Foundation scripts file in the footer
-    wp_register_script( 'foundation-js', get_template_directory_uri() . '/library/js/bac.foundation.min.js', array( 'jquery' ), '', true );
+    //wp_register_script( 'foundation-js', get_template_directory_uri() . '/library/js/foundation.min.js', array( 'jquery' ), '', true );
 	
 	// adding Build script after concat Foundation scripts files in the footer
-    //wp_register_script( 'foundation-js', get_template_directory_uri() . '/library/js/build.min.js', array( 'jquery' ), '', true );
+    wp_register_script( 'foundation-js', get_template_directory_uri() . '/library/js/build.min.js', array( 'jquery' ), '', true );
    
     // register main stylesheet
-    wp_register_style( 'joints-stylesheet', get_template_directory_uri() . '/library/css/style.css', array(), '', 'all' );
+    //wp_register_style( 'joints-stylesheet', get_template_directory_uri() . '/library/css/style.css', array(), '', 'all' );
 	
 	// register main stylesheet after Build 
-    //wp_register_style( 'joints-stylesheet', get_template_directory_uri() . '/library/css/build.css', array(), '', 'all' );
+    wp_register_style( 'joints-stylesheet', get_template_directory_uri() . '/library/css/build.css', array(), '', 'all' );
     
     // register foundation icons
-    wp_register_style( 'foundation-icons', get_template_directory_uri() . '/library/css/icons/foundation-icons.css', array(), '', 'all' );
+    //wp_register_style( 'foundation-icons', get_template_directory_uri() . '/library/css/icons/foundation-icons.css', array(), '', 'all' );
 
     // comment reply script for threaded comments
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
@@ -145,13 +145,13 @@ function joints_scripts_and_styles() {
     }
 
     //adding scripts file in the footer
-    wp_register_script( 'joints-js', get_template_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
+    //wp_register_script( 'joints-js', get_template_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
 	
     // enqueue styles and scripts
     wp_enqueue_script( 'joints-modernizr' );
     wp_enqueue_script ('foundation-js');
     wp_enqueue_style( 'joints-stylesheet' );
-    wp_enqueue_style( 'foundation-icons' );
+    //wp_enqueue_style( 'foundation-icons' );
 
     $wp_styles->add_data( 'joints-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
 
@@ -160,7 +160,7 @@ function joints_scripts_and_styles() {
     using the google cdn. That way it stays cached
     and your site will load faster.
     */
-    wp_enqueue_script( 'joints-js' );
+    //wp_enqueue_script( 'joints-js' );
   }
 }
 
