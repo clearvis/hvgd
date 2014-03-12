@@ -7,7 +7,7 @@
 	</header> <!-- end article header -->
 					
 	<section class="entry-content clearfix" itemprop="articleBody">
-		<div class="text-center"><?php the_post_thumbnail('joints-thumb-300'); ?></div>
+		<div class="text-center"><?php the_post_thumbnail('full'); ?></div>
 		<?php the_content(); ?>
 	</section> <!-- end article section -->
 						
