@@ -39,6 +39,19 @@ Template Name: Home Page
                             </div>
                             <div class="large-4 columns home-widget-container" data-equalizer-watch>
                             
+                            <div class="social-icons">
+                            	<h4>Follow Us</h4>
+                            	<ul class="inline-list">
+                                     <li><a href="#" class="icon-facebook"></a></li>
+                                     <li><a href="#" class="icon-google-plus"></a></li>
+                                     <li><a href="#" class="icon-twitter"></a></li>
+                                     <li><a href="#" class="icon-pinterest"></a></li>
+                                     <li><a href="#" class="icon-linkedin"></a></li>
+                                     <li><a href="#" class="icon-youtube"></a></li>
+                                     <li><a href="#" class="icon-instagram"></a></li>
+                                </ul>
+                            </div>
+                            
                             <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Homeright')) : endif; ?>
                             
                             </div>
