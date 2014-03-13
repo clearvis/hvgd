@@ -530,7 +530,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
         .dropdown {
           #{$default-float}: 0;
           top: auto;
-          background: $gray-color;
+          background: $primary-color;
           min-width: 100%;
 
           li {
