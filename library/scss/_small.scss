@@ -239,7 +239,7 @@ h1.intro-h1 {
 	color: #fff;
 }
 
-a[class^="icon-"]:hover {
+a[class^="icon-"]:hover, a[class^="icon-"]:focus {
 	background: none !important;
 	color: #fff !important;
 }
@@ -253,6 +253,16 @@ a[class^="icon-"]:hover {
 .social-icons .inline-list>li:hover a {
 	top: -32px;
 }
+
+/*Orbit Next and Prev*/
+.orbit-container .orbit-prev:focus>span {
+	border-right-color: #fff;
+}
+
+.orbit-container .orbit-next:focus>span {
+	border-left-color: #fff;
+}
+
 
 /*********************
 POSTS & CONTENT STYLES
