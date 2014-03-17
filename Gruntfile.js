@@ -9,14 +9,14 @@ module.exports = function(grunt) {
 			dist: {
 			  src: [
 				  //'js/vendor/*.js', // All JS in the libs folder
-				  //'library/js/foundation.min.js',
-				  'library/js/foundation/foundation.js',
-				  'library/js/foundation/foundation.accordion.js',
-				  'library/js/foundation/foundation.interchange.js',
-				  'library/js/foundation/foundation.offcanvas.js',
-				  'library/js/foundation/foundation.orbit.js',
-				  'library/js/foundation/foundation.topbar.js',
-				  'library/js/foundation/foundation.equalizer.js',
+				  'library/js/foundation.min.js',
+				  //'library/js/foundation/foundation.js',
+				  //'library/js/foundation/foundation.accordion.js',
+				  //'library/js/foundation/foundation.interchange.js',
+				  //'library/js/foundation/foundation.offcanvas.js',
+				  //'library/js/foundation/foundation.orbit.js',
+				  //'library/js/foundation/foundation.topbar.js',
+				  //'library/js/foundation/foundation.equalizer.js',
 				  'library/js/scripts.js'  // This specific file
 			  ],
 			  dest: 'library/js/build.js',
