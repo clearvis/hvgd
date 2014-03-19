@@ -265,6 +265,13 @@ a[class^="icon-"]:hover, a[class^="icon-"]:focus {
 	border-left-color: #fff;
 }
 
+/*********************
+Remove Constant Contact default margin-top
+*********************/
+#content div#cc_form_1 {
+    margin-top: 0 !important; 
+}
+
 
 /*********************
 POSTS & CONTENT STYLES
