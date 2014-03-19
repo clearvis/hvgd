@@ -77,18 +77,23 @@ NAVIGATION STYLES
 /*********************
 HOME PAGE STYLES
 *********************/
+
 .social-icons .inline-list>li {
+	margin-bottom: .5rem;
+}
+
+.social-icons:not(.textwidget .social-icons) .inline-list>li {
 	margin-left: 1rem;
 	width: 64px;
 	height: 64px;
 	line-height: 64px;
 }
 
-.social-icons li a:after {
+.social-icons:not(.textwidget .social-icons) li a:after {
 	line-height: 64px;
 }
 
-.social-icons .inline-list>li:hover a {
+.social-icons:not(.textwidget .social-icons) .inline-list>li:hover a {
 	top: -64px;
 }
 
