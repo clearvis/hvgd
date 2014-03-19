@@ -64,6 +64,7 @@ Template Name: Home Page
                             
                             </div>
                             </div>
+                            </div>
 
     				</div> <!-- end #main -->
 				    
