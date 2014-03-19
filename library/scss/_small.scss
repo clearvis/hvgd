@@ -109,8 +109,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	}
 }
 
-h1, .h1 {
-
+h1, .h1,
+h2, .h2,
+h2 a, .h2 a {
+	color: scale-color($gray-color, $lightness: -66%);
 }
 
 h2, .h2 {
@@ -151,7 +153,7 @@ HEADER STYLES
 	height: 85px;
 	margin: .5em 0;
 	display: block;
-	text-indent: -200%;
+	text-indent: -300%;
 	overflow: hidden;
 }
     
