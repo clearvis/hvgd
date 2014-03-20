@@ -11,8 +11,13 @@ Styles apply to 40.063em and up.
 /*********************
 NAVIGATION STYLES
 *********************/
-.top-bar-section ul li {
+.top-bar-section ul {
 	float: right;
+	background: #fff;
+}
+
+.fixed .top-bar-section ul {
+	background: $primary-color;
 }
 
 .dropdown li a {
@@ -30,12 +35,28 @@ NAVIGATION STYLES
 	background: $primary-color;
 }
 
-.fixed .top-bar-section li a {
+.fixed .top-bar-section ul li>a,
+.fixed .top-bar-section li a:not(.has-form) a:not(.button) {
 	color: #fff;
+	background: $primary-color;
+	-webkit-transition: background 0.5s ease, color 0.5s ease;
+	transition: background 0.5s ease, color 0.5s ease;
+}
+
+.fixed .top-bar-section ul li>a:hover {
+	color: $primary-color;
 }
 
 .fixed .top-bar-section li.active:not(.has-form) a:not(.button) {
-	color: #ccc;
+	color: #fff;
+	background: scale-color($primary-color, $lightness: 25%);
+	-webkit-transition: background 0.5s ease, color 0.5s ease;
+	transition: background 0.5s ease, color 0.5s ease;
+}
+
+.fixed .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	color: scale-color(#fff, $lightness: -45%);
+	background: scale-color($primary-color, $lightness: 45%);
 }
 
 .fixed .top-bar-section .has-dropdown > a:after {
