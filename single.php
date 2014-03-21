@@ -5,6 +5,10 @@
 				<div id="inner-content" class="row clearfix">
 			
 					<div id="main" class="large-8 medium-8 columns first clearfix" role="main">
+                    
+                    <?php if ( function_exists('yoast_breadcrumb') ) {
+						yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+					} ?>
 					
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
