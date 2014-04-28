@@ -30,14 +30,14 @@ Template Name: Home Page
                           </div>
                         </div>
                             
-                            <div class="row home-blocks-container" data-equalizer>
-                            <div class="large-4 columns home-widget-container" data-equalizer-watch>
+                            <div class="row home-blocks-container">
+                            <div class="large-4 columns home-widget-container">
                             <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Homeleft')) : endif; ?>
                             </div>
-                            <div class="large-4 columns home-widget-container" data-equalizer-watch>
+                            <div class="large-4 columns home-widget-container">
                             <div class="flex-video"><?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Homecenter')) : endif; ?></div>
                             </div>
-                            <div class="large-4 columns home-widget-container" data-equalizer-watch>
+                            <div class="large-4 columns home-widget-container">
                             
                             <div class="social-icons">
                             	<h4>Follow Us</h4>

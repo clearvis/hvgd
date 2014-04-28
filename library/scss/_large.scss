@@ -64,6 +64,11 @@ HOME PAGE STYLES
 	border-right: 1px solid $primary-border-color;
 }
 
+.home-widget-container {
+	min-height: 275px;
+	margin-bottom: 0;
+}
+
 .social-icons .inline-list>li {
 	margin-left: .25rem;
 	margin-bottom: 0;

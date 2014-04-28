@@ -194,6 +194,10 @@ HOME PAGE STYLES
 	border-top: 1px solid $primary-border-color;
 }
 
+.home-widget-container {
+	margin-bottom: 1em;
+}
+
 h1.intro-h1 {
 	font-size: rem-calc(27); // the same size as an h3
 }
