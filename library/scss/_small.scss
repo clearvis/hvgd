@@ -805,3 +805,24 @@ PLUGIN STYLES
     list-style: none outside none;
     margin: 0;
 }
+
+// Testimonials styles
+.testimonial_rotator_description {
+	border-left: 5px solid #ccc;
+	padding-left: .4em;
+}
+
+.testimonial_rotator_quote {
+	font-size: .8em;
+	text-align: right;
+}
+
+.testimonial_rotator_quote:before {
+	content: "\2014 \00A0";
+}
+
+.testimonial_rotator h2.testimonial_rotator_slide_title {
+	color: $primary-color;
+	font-style: italic;
+	font-size: rem-calc(23);
+}
