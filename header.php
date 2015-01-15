@@ -45,7 +45,7 @@
 				<header class="header" role="banner">
 
 					<div id="inner-header" class="row">
-						<div class="large-4 small-12 columns">
+						<div class="large-2 small-12 columns">
                         	<a href="<?php echo home_url(); ?>" rel="nofollow">
 							<h1 class="hvgd-logo">
 								

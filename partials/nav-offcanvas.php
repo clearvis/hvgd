@@ -1,4 +1,4 @@
-<div class="large-8 columns show-for-medium-up">
+<div class="medium-12 large-10 columns show-for-medium-up">
 	<div class="contain-to-grid sticky">
 	
 		<!-- If you want to use the more traditional "fixed" navigation.

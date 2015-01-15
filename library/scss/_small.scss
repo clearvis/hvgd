@@ -149,12 +149,14 @@ HEADER STYLES
 #inner-header {}
 
 .hvgd-logo {
-	background: url(../../../../uploads/hvgd-logo-300x85.gif) center no-repeat;
-	height: 85px;
+	background: url(../../../../uploads/2015/01/hvgd-logo.jpg) center no-repeat;
+	height: 101px;
+    width: 101px;
 	margin: .5em 0;
 	display: block;
-	text-indent: -300%;
+	text-indent: 100%;
 	overflow: hidden;
+    white-space: nowrap;
 }
     
 /*********************
