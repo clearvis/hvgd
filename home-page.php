@@ -52,7 +52,7 @@ Template Name: Home Page
                                         <h4>Follow Us</h4>
                                         <ul class="inline-list">
                                              <li><a href="https://www.facebook.com/HudsonValleyGraphics" title="Facebook Page" class="icon-facebook"></a></li>
-                                             <li><a href="https://plus.google.com/u/0/112462019235863494371/posts" title="Google + Page" class="icon-google-plus"></a></li>
+                                             <li><a href="https://plus.google.com/+Hudsonvalleygraphics/posts" title="Google+ Page" class="icon-google-plus"></a></li>
                                              <li><a href="https://twitter.com/hvgraphics" title="Follow Us" class="icon-twitter"></a></li>
                                              <li><a href="http://www.pinterest.com/janeenv60/" title="Pinterest Scrapbook" class="icon-pinterest"></a></li>
                                              <li><a href="http://www.linkedin.com/profile/view?id=140537391&trk=tab_pro" title="Janeen's Linkin Profile" class="icon-linkedin"></a></li>
